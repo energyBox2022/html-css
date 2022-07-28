@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+body{
+    background-image: linear-gradient(to right, #B4BF5E, #64732F, #252617);
+}
+
+main{
+    width: 600px;
+    background-color: #CAD959;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: #252617;
+}
+
+h2{
+    color: #34401B;
+}
+
+p{
+    color: #252617;
+}

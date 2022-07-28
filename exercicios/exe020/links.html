@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="link.css">
+
+    <style>
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a{
+            color: rgb(235, 92, 10);
+            text-decoration: none;
+        }
+
+
+        a:visited {
+            color: rgb(26, 196, 91);
+            
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(48, 14, 238);   
+        }
+
+        a:active{
+            color: rgb(250, 1, 117);
+        }
+
+        a::before{
+            content: '❉';
+        }
+
+        a::after{
+            content: " [Link]";
+            color: brown;
+        }
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>Novo Nissan <a href="https://youtu.be/YhYx9_qybfs" target="_blank">Altima</a></li>
+        <li><a href="https://m.media-amazon.com/images/I/51QLn7JMdNL._AC_SL1000_.jpg" target="_blank">Edifie High-end</a></li>
+        <li>Férias <a href="https://www.k4feed.com/wp-content/uploads/2020/02/Chicago.jpg" target="_blank">Estados Unidos</a></li>
+    </ul>
+    
+</body>
+</html>
