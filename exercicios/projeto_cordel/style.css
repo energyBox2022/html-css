@@ -16,8 +16,8 @@ body{
     margin: 0;
     height: 100vh;
     background-color: black;
-    background-image: url(imagens/joaninha.jpg);
-    background-position: center center;
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -84,7 +84,7 @@ article{
 }
 
 .estrofe2{
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.555);
     color: white;
     width: 41vw;   
 }
@@ -106,7 +106,7 @@ article{
 }
 
 .estrofe5{
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.555);
     color: white;
     width: 41vw;   
 }
