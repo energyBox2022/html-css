@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de teste</title>
+    <title>Uso de iframe</title>
 
     <style>
         *{
@@ -18,6 +18,17 @@
             text-align: center;
         }
 
+        p{
+            text-align: justify;
+            text-indent: 25px;
+        }
+
+        iframe{
+            background-color: aliceblue;
+            width: 98vw;
+            height: 450px;
+            border: 2px solid rgb(0, 255, 85);
+        }
 
 
 
@@ -31,9 +42,25 @@
 
 
 <body>
-    <h1>Isso é um teste!</h1>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis tenetur cum error, molestiae tempora vitae temporibus! Dolorum obcaecati neque delectus praesentium alias, minima, incidunt rerum id voluptatibus enim amet laudantium!</p>
 
+    <ul>
+        <li><a href="./index.html" target="frame">Primeira página</a></li>
+        <li><a href="../desafio10_guanabara/index.html" target="frame">Segunda página</a></li>
+        <li><a href="../projeto_cordel/index.html" target="frame">Terceira página</a></li>
+    </ul>
 
-    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam reprehenderit tempora quo cupiditate sed, eaque voluptas excepturi repellendus perferendis labore tempore soluta ut a quidem vel neque, voluptate nemo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo natus consectetur incidunt tempora assumenda totam consequatur mollitia! Eaque expedita velit quo ea dolorum voluptas. Sunt quis reprehenderit deleniti officia. Non!</p>
 </body>
+
+    <iframe srcdoc="<h1>Clique em uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum, asperiores adipisci magnam sapiente fugit vero possimus porro perferendis voluptas aliquid provident cumque nostrum libero maiores at dolore ex dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod obcaecati earum! Ipsam ea cum a in error tempora quasi consequuntur hic. Dolorum cum est magnam magni deserunt adipisci quisquam.</p> <img src='../projeto_cordel/imagens/background001.jpg'>" name="frame">
+        <p>Navegador não compatível.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum aliquam illum minus reprehenderit earum sit harum deleniti sint dolores consequatur, sequi a inventore et ad sapiente dolor corrupti eius! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid, quas minus blanditiis ut nisi magnam doloremque voluptatibus. Consequatur ullam rem aspernatur ducimus omnis beatae, consequuntur eveniet assumenda dolorum nam.</p>
+
+
 </html>
+
+<h1>Clique em uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum, asperiores adipisci magnam sapiente fugit vero possimus porro perferendis voluptas aliquid provident cumque nostrum libero maiores at dolore ex dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod obcaecati earum! Ipsam ea cum a in error tempora quasi consequuntur hic. Dolorum cum est magnam magni deserunt adipisci quisquam.</p> <img src='../projeto_cordel/imagens/background001.jpg'>
