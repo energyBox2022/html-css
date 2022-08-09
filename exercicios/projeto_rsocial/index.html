@@ -6,10 +6,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de Redes Sociais</title>
 
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body{
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #conteiner{  
+            background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+            position: relative;
+            background-size: 100% 100%;
+            height: 100vh;
+            width: 100vw;
+            
+        }
+
+        #conteudo{
+            background-image: url(pacote-d013/imagens/frame-iphone.png);
+            position: absolute;
+            height: 627px;
+            width: 310px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #home{
+            background-image: url(pacote-d013/imagens/logo-home.jpg);
+            position: inherit;
+            
+            background-size: cover;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            left: 90vw;
+            top: 2%;
+            
+            
+        }
+
+        #youtube{
+            background-image: url(pacote-d013/imagens/logo-youtube.jpg);
+            position: inherit;
+            background-size: cover;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            left: 90vw;
+            top: 5%;
+        }
+
+        #github{
+            background-image: url(pacote-d013/imagens/logo-github.jpg);
+            position: inherit;
+            background-size: cover;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            left: 90vw;
+            top: 8%;
+        }
+
+        #instagram{
+            background-image: url(pacote-d013/imagens/logo-instagram.jpg);
+            position: inherit;
+            background-size: cover;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            left: 90vw;
+            top: 11%;
+        }
+
+        #twitter{
+            background-image: url(pacote-d013/imagens/logo-twitter.jpg);
+            position: inherit;
+            background-size: cover;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            left: 90vw;
+            top: 14%;
+        }
+
+        #facebook{
+            background-image: url(pacote-d013/imagens/tela-facebook.jpg);
+            position: inherit;
+            background-size: cover;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            left: 90vw;
+            top: 17%;
+        }
+
+        #iframe_back{
+            
+            position: absolute;
+            background-color: antiquewhite;
+            height: 478px;
+            width: 250px;
+            
+            
+            
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        #iframe{
+            
+            position: absolute;
+            background-color: antiquewhite;
+            height: 478px;
+            width: 270px;
+            
+            
+            
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        
+
+
+    </style>
+
+
+
+
+
 </head>
 
 
 <body>
+
+    <section id="conteiner">
+
+        <article id="conteudo"></article>
+        <article id="home"></article>
+        <article id="youtube"></article>
+        <article id="github"></article>
+        <article id="instagram"></article>
+        <article id="twitter"></article>
+        <article id="facebook"></article>
+        <article id="iframe_back">
+            <iframe id="iframe" src="../projeto_cordel/index.html" frameborder="0"></iframe>
+        </article>
+
+    </section>
+
     
 
 
