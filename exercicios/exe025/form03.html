@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teste formulário 2</title>
+
+
+</head>
+
+
+
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <label for="inome">Nome:</label>
+        <input type="text" autocomplete="name" id="inome" placeholder="somente nome"><br> <br> 
+
+        <label for="inota">Notas:</label>
+        <input type="number" name="nota" id="inota" min="0" max="10" placeholder="0 a 10" step="0.5"><br> <br>
+
+        <label for="imes">Mês do semestre</label>
+        <input type="date" name="mes" id="imes"><br> <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    
+
+    
+</body>
+</html>
